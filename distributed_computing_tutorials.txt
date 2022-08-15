@@ -1,0 +1,20 @@
+Pandas dataframes vs. Spark dataframes:
+https://medium.com/@chris_bour/6-differences-between-pandas-and-spark-dataframes-1380cec394d2
+
+
+https://data-flair.training/blogs/spark-rdd-operations-transformations-actions/
+
+
+An excellent getting feet wet for distributed computing with PySpark by RealPython team: 
+https://realpython.com/pyspark-intro/
+
+
+We can workout these examples and setup our DistributingComputing folder on our Github to start
+Gaining experience in this valuable tech skill…
+
+
+
+=======================================================================================================
+YouTube videos on PySpark...
+
+https://www.youtube.com/watch?v=cZS5xYYIPzk

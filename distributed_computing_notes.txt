@@ -1,0 +1,44 @@
+Distributed Computing: 
+
+PySpark is a Python package for performing distributed computing. 
+https://medium.com/towards-data-science/a-neanderthals-guide-to-apache-spark-in-python-9ef1f156d427
+
+
+“Spark is a general-purpose distributed data processing engine”
+
+
+Instead of trying to process a huge dataset or run super computationally-expensive programs on one computer, these tasks can be divided between multiple computers that communicate with each other to produce an output.
+
+
+NOTE: In a distributed computing system, each individual computer is called a node and the collection of all of them is called a cluster
+
+
+A single process on our computer is a single system, which operates on its own. If a process does not communicate with other processes, then it inherently isn’t part of a larger system.
+
+
+A distributed system is nothing more than multiple entities that talk to one another in some way, while also performing their own operations. 
+
+
+And if we think about a distributed system being a network of computing elements (which is exactly what they are), then we can visualize that network as a graph made up of interconnected nodes.
+
+
+A node could be a hardware device (like a sensor), or it could it could be a software process (a client or a server). 
+ 
+
+Apache Hadoop is an open source software platform that also deals with “Big Data” and distributed computing.
+
+
+Hadoop has a processing engine, distinct from Spark, called MapReduce.
+
+
+General-Purpose — One of the main advantages of Spark is how flexible it is, and how many application domains it has. It supports Scala, Python, Java, R, and SQL.
+
+
+Good overview article on Apache Spark: 
+https://developer.hpe.com/blog/the-5-minute-guide-to-understanding-the-significance-of-apache-spark/
+
+
+https://www.databricks.com/blog/2016/07/14/a-tale-of-three-apache-spark-apis-rdds-dataframes-and-datasets.html
+
+ Spark RDDs (Resilient Distributed Datasets) are data structures that are the core building blocks of Spark. A RDD is an immutable, partitioned collection of records, which means that it can hold values, tuples, or other objects, these records are partitioned so as to be processed on a distributed system, and that once an RDD has been made, it is impossible to alter it. 
+
